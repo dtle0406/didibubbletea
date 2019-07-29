@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>DIDI BUBBLE TEA</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" type="text/css" href="slick.css"/>
+  <link href="https://fonts.googleapis.com/css?family=Muli%7CRoboto:400,300,500,700,900" rel="stylesheet"></head>
+  <body>
+
+    <div class="main-nav">
+        <ul class="nav">
+          <li class="name">Didi Bubble Tea</li>
+          <li><a href="didibubbletea.html">Home</a></li>
+          <li><a href="bubbleteamenu.html">Menu</a></li>
+          <li><a href="bubbleteaphoto.html">Photos</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+    </div>
+    <header class="photopage-header">
+      <div class="pucca-head">
+        <img src="images/pucca-head.png">
+      </div>
+
+      <h1 class="tag name">Hello, just a random photo page</h1>
+    </header>
+    <main>
+
+  <div class="slick-photo">
+    <div><img src="images/bubbletea.jpg"></div>
+    <div><img src="images/bubbletea.jpg"></div>
+    <div><img src="images/bubbletea.jpg"></div>
+  </div>
+
+<script type="text/javascript" src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+<script type="text/javascript" src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+<script type="text/javascript" src="slick.js"></script>
+
+<script type="text/javascript">
+  $('.slick-photo').slick({
+    infinite: true,
+    slidesToShow: 1,
+    slidesToScroll: 1
+  });
+ </script>
+</body>
+</main>
