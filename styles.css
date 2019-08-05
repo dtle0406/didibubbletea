@@ -61,7 +61,7 @@ a {
 
 header {
   text-align: center;
-  background: url('/images/redtheme.jpg') no-repeat top center ;
+  background: url('/Users/dile/Documents/GitHub/didibubbletea/images/redtheme.jpg') no-repeat top center ;
   background-size: cover;
   overflow: hidden;
   padding-top: 60px;
@@ -763,4 +763,21 @@ body {
   background-image: -moz-linear-gradient(top, rgba(241, 97, 75, 0) 0%, transparent 100%);
   background-image: -webkit-linear-gradient(top, rgba(241, 97, 75, 0) 0%, transparent 100%);
   background-image: linear-gradient(to bottom, rgba(241, 97, 75, 0) 0%, transparent 100%);
+}
+
+/* Header mobile screen */
+
+@media only screen and (max-width: 736px) {
+  header .wrapper{
+    display:none;
+  }
+
+  .card{
+    max-width: 500px;
+    width: 90%;
+    height: 370px;
+  }
+
+  .homepage-callouts .row {
+    display: block;
 }
